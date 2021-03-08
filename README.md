@@ -11,6 +11,10 @@
 | No | Ventas 2 | SW4 | 192.168.216.30 |
 | No | Contabilidad 1 | SW1 | 192.168.16.15 |
 | Si | Contabilidad 2 | SW4 | 192.168.16.30 |
+| Si | Server_Contabilidad | SW6 | 192.168.16.150 |
+| Si | Server_Informatica | SW6 | 192.168.116.150 |
+| Si | Server_Ventas | SW7 | 192.168.216.150 |
+
 
 ## Vlans 📄
 
