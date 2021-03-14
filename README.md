@@ -35,3 +35,9 @@ GNS3 nos ofrece la posibilidad de simular VLANS con los switch que trae por defe
 </div>
     
 Tal y como se muestra en la tabla los primeros 3 switch se utilizaron para configurar las 3 VLANS existes, para mayor facilidad se etiqueron con sus nombres por defecto SW1, SW2 y SW3 respectivamente.
+
+<div align='center'>
+<img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/ConfigSwitchVpn.png" width="50%" height="50%"/>
+</div>
+
+Cabe resaltar que la conexicon de los puertos con los host debe permanecer en modo access pero para interconectar los switch los puertos de dichos dispositivos deben de estar en modo truncal, como se puede apreciar en la imagenes, por ejemplo en el SW2 los primeros 3 puertos que estan conectados a otros switches estan activados y en type dot1q. 
