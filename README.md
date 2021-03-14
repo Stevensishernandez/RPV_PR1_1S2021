@@ -22,7 +22,7 @@
 * Vlan-Ventas: 36
 * Vlan-Contabilidad: 46
 
-## Configuracion de switch generico
+## Configuracion de switch generico 📄
 
 <div align='center'>
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/ConfigSwitch.png" width="50%" height="50%"/>
