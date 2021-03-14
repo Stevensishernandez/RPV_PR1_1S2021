@@ -24,7 +24,14 @@
 
 ## Configuracion de switch generico
 
-GNS3 nos ofrece la posibilidad de simular VLANS con los switch que trae por defecto, no se necesita escribir ningun comando, por defecto todos los puertos estan en la VLAN 1 pero pero para cambiarlo y simular VLNAS nuevas, basta con abribir las propiedades de switch, seleccionar el puerto y colocar el numero de VLAN, es este caso el 16, 36 o 46.
     <div align='center'>
     <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/ConfigSwitch.png" width="50%" height="50%"/>
     </div>
+
+GNS3 nos ofrece la posibilidad de simular VLANS con los switch que trae por defecto, no se necesita escribir ningun comando, por defecto todos los puertos estan en la VLAN 1 pero pero para cambiarlo y simular VLNAS nuevas, basta con abribir las propiedades de switch, seleccionar el puerto y colocar el numero de VLAN, es este caso el 16, 36 o 46.
+
+    <div align='center'>
+    <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/ConfigSwitchVlans.png" width="50%" height="50%"/>
+    </div>
+    
+Tal y como se muestra en la tabla los primeros 3 switch se utilizaron para configurar las 3 VLANS existes, para mayor facilidad se etiqueron con sus nombres por defecto SW1, SW2 y SW3 respectivamente.
