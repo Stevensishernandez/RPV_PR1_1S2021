@@ -22,3 +22,7 @@
 * Vlan-Ventas: 36
 * Vlan-Contabilidad: 46
 
+## Configuracion de switch generico
+
+GNS3 nos ofrece la posibilidad de simular VLANS con los switch que trae por defecto, no se necesita escribir ningun comando, por defecto todos los puertos estan en la VLAN 1 pero pero para cambiarlo y simular VLNAS nuevas, basta con abribir las propiedades de switch, seleccionar el puerto y colocar el numero de VLAN, es este caso el 16, 36 o 46.
+    <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/ConfigSwitch.png" width="100%" height="100%"/>
