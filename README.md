@@ -71,3 +71,5 @@ Finalmente se muestra dos mapas del resultado final, es importante resaltar que 
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/Topo2.jpeg" width="65%" height="65%"/>
 </div>
 
+Nota: tambien se debe configurar el UDP en los cloud con su ip y puerto correspondiente, en este caso el tanto el cloud de la topologia 1 como de la topologia 2 comparten el mismo remote host, y los puertos remoto y local se cruzan para que de este forma exista comunicacion. 
+
