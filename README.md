@@ -52,8 +52,14 @@ Para conectar los 2 equipos con los que se realizo la practica, se utilizo el pr
 
 ## Topologias
 
-Finalmente se muestra dos mapas del resultado final, es importante resaltar que los colores identifican a que VLAN pertenece cada host, tambien es importante mencionar que la ip correspondiente a cada host se puede ver en el mapa.
+Para los host se utilizaron maquinas virtuales linux, para virtualizar estos host en la red basta con generar algunos adaptadores con GNS3 despues con VMware debemos escoger el  adaptador correspondiente para cada maquina, es importante deshabilatar el firewall tanto en el equipo local como en las maquina virtuales para evitar que los sistemas asuman amenezas con protocolos como el HTTP que nos proporciona el servidor de apache o la VPN que nos proporciona google cloud. 
 
 <div align='center'>
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/Topo1.png" width="65%" height="65%"/>
+</div>
+
+Finalmente se muestra dos mapas del resultado final, es importante resaltar que los colores identifican a que VLAN pertenece cada host, tambien es importante mencionar que la ip correspondiente a cada host se puede ver en el mapa.
+
+<div align='center'>
+<img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/Topo2.jpeg" width="65%" height="65%"/>
 </div>
