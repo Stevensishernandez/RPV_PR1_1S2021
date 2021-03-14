@@ -44,7 +44,7 @@ Cabe resaltar que la conexion de los puertos con los host debe permanecer en mod
 
 ## VPN
 
-Para conectar los 2 equipos con los que se realizo la practica, se utilizo el programa Open VPN, las direcciones y las llaves son generadas gracias a servicios de google cloud. Basta con tener conexion y arrastrar el archivo (llave) al programa para configurar la VPN.
+Para conectar los 2 equipos con los que se realizo la practica, se utilizo el programa Open VPN, las direcciones y las llaves son generadas gracias a servicios de google cloud con una instacia ec2 y una regla de firewall. Basta con tener conexion y arrastrar el archivo (llave) al programa para configurar la VPN.
 
 <div align='center'>
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/OpenVpnMiguel.jpeg" width="50%" height="50%"/>
