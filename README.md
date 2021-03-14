@@ -50,6 +50,13 @@ Para conectar los 2 equipos con los que se realizo la practica, se utilizo el pr
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/OpenVpnMiguel.jpeg" width="50%" height="50%"/>
 </div>
 
+## Apache
+
+Los servicos de HTTP se montaron gracias a la ayuda de apache, regularmente todos los servicios son repartidos en sistemas operativos especiales para servidores pero en esta ocacion lo mas simple para levantar paginas es levantar servios con los host, la instalacion y utilizacion de apache en maquinas linux se resume en los siguientes comandos.
+    
+    sudo apt-get update
+    sudo apt-get install apache2
+
 ## Topologias
 
 Para los host se utilizaron maquinas virtuales linux, para virtualizar estos host en la red basta con generar algunos adaptadores con GNS3 despues con VMware debemos escoger el  adaptador correspondiente para cada maquina, es importante deshabilatar el firewall tanto en el equipo local como en las maquina virtuales para evitar que los sistemas asuman amenezas con protocolos como el HTTP que nos proporciona el servidor de apache o la VPN que nos proporciona google cloud. 
@@ -63,3 +70,4 @@ Finalmente se muestra dos mapas del resultado final, es importante resaltar que 
 <div align='center'>
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/Topo2.jpeg" width="65%" height="65%"/>
 </div>
+
