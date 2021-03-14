@@ -50,5 +50,10 @@ Para conectar los 2 equipos con los que se realizo la practica, se utilizo el pr
 <img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/OpenVpnMiguel.jpeg" width="50%" height="50%"/>
 </div>
 
+## Topologias
 
+Finalmente se muestra dos mapas del resultado final, es importante resaltar que los colores identifican a que VLAN pertenece cada host, tambien es importante mencionar que la ip correspondiente a cada host se puede ver en el mapa.
 
+<div align='center'>
+<img src="https://github.com/Stevensishernandez/RPV_PR1_1S2021/blob/main/image/Topo1.png" width="50%" height="50%"/>
+</div>
